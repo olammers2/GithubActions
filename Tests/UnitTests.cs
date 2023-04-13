@@ -79,7 +79,7 @@ namespace GithubActionsLab
         }
         
         [Test]
-        public void Divide_Invalid()
+        public void Divide_Valid()
         {
             Assert.AreEqual(2, Program.Divide("2", "1"));
             Assert.AreEqual(2, Program.Divide("4", "2"));
@@ -103,7 +103,7 @@ namespace GithubActionsLab
         }
         
         [Test]
-        public void Power_Invalid()
+        public void Power_Valid()
         {
             Assert.AreEqual(2, Program.Power("2", "1"));
             Assert.AreEqual(16, Program.Power("4", "2"));
